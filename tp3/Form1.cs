@@ -16,5 +16,21 @@ namespace tp3
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblOutput_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnSubmit_Click(object sender, EventArgs e)
+        {
+            string nama = txtInput.Text; // Ambil teks dari TextBox
+            lblOutput.Text = "Halo " + nama; // Tampilkan teks di Label
+        }
     }
 }
